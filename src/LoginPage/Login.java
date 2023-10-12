@@ -19,7 +19,7 @@ import org.testng.annotations.Test;
 public class Login {
 	String driverPath = "C:\\Program Files\\ChromiumTemp1316_1452253484/chromedriver";
 	  WebDriver driver;
-	  private String invalidEmail, invalidPassword, RegisteredEmail, ValidPassword;
+	  private String invalidEmail, invalidPassword, RegisteredEmail, ValidPassword, UnregistedEmail ;
 	  //pt nay se duoc thuc thi moi khi chay test
 	  @BeforeTest
 	  public void setUp(){
@@ -36,7 +36,8 @@ public class Login {
 		  invalidEmail = "demonopcommerce";
 		  invalidPassword = "12345";
 		  ValidPassword = "123456demo";
-		  RegisteredEmail = "demonopcommerce5@gmail.com";
+		  UnregistedEmail = "emailchuadangky@gmail.com";
+		  RegisteredEmail = "demonopcommerce2@gmail.com";
 		  
 		  driver.get("https://demo.nopcommerce.com/");
 		  driver.findElement(By.xpath("//a[@class='ico-login']")).click();
@@ -79,7 +80,7 @@ public class Login {
 	  public void testLogin3_Unregistered_Email() throws InterruptedException
 	  {
 		   
-		     driver.findElement(By.name("Email")).sendKeys(invalidEmail);
+		     driver.findElement(By.name("Email")).sendKeys(UnregistedEmail );
 			 driver.findElement(By.xpath("//button[text()='Log in']")).click();
 			 //ktra duong dan
 			 

@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.openqa.selenium.Alert;
@@ -18,7 +20,7 @@ public class Search {
 		  //Mo browser
 		  driver = new ChromeDriver();
 		  driver.get("https://demo.nopcommerce.com/");
-		  RegisteredEmail ="demonopcommerce5@gmail.com";
+		  RegisteredEmail ="demonopcommerce2@gmail.com";
 		  ValidPassword = "123456demo";
 		  invalidData = "Macbook Pro 2050";
 		  ProName ="Thinkpad X1 Carbon";
@@ -45,6 +47,7 @@ public class Search {
 		String expected_error = "Please enter some search keyword";
 		//type 1
 		Assert.assertEquals(actual_error, expected_error);
+		driver.switchTo().alert().accept();
 		Thread.sleep(2000);
 	  }
 	  
@@ -76,5 +79,16 @@ public class Search {
 		//type 1
 		Assert.assertEquals(actual_error, expected_error);
 		Thread.sleep(2000);
+	  }
+	  @AfterMethod
+	  public void mess() {
+		  System.out.println("Xong Mot Testcase!");
+	  }
+	  // pt nay duoc thuc thi sau khi KT test
+	  @AfterTest
+	  public void closeTest()
+	  {
+		  driver.close();
+		  System.out.println("Ket Thuc Test!");
 	  }
 }

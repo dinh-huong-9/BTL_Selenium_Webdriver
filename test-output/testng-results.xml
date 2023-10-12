@@ -1,25 +1,371 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="15" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-10T20:56:55 ICT" name="Default suite" finished-at="2023-10-10T20:57:06 ICT" duration-ms="10814">
+  <suite started-at="2023-10-12T20:48:37 ICT" name="Suite" finished-at="2023-10-12T20:49:46 ICT" duration-ms="69698">
     <groups>
     </groups>
-    <test started-at="2023-10-10T20:56:55 ICT" name="Default test" finished-at="2023-10-10T20:57:06 ICT" duration-ms="10814">
-      <class name="MyAccountPage.AccountPage">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MyAccountPage.AccountPage@217ed35e]" started-at="2023-10-10T20:56:55 ICT" name="setUp" finished-at="2023-10-10T20:56:57 ICT" duration-ms="1692" status="PASS">
+    <test started-at="2023-10-12T20:48:37 ICT" name="Test" finished-at="2023-10-12T20:49:46 ICT" duration-ms="69698">
+      <class name="RegisterPage.Register">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:48:40 ICT" name="setUp" finished-at="2023-10-12T20:48:41 ICT" duration-ms="1102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="openMyAcc()[pri:0, instance:MyAccountPage.AccountPage@217ed35e]" started-at="2023-10-10T20:56:57 ICT" name="openMyAcc" finished-at="2023-10-10T20:57:03 ICT" duration-ms="6227" status="PASS">
+        <test-method is-config="true" signature="openRegisterPage()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:48:45 ICT" name="openRegisterPage" finished-at="2023-10-12T20:48:48 ICT" duration-ms="2925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRegisterPage -->
+        <test-method signature="testRegister1_EmptyData()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:48:48 ICT" name="testRegister1_EmptyData" finished-at="2023-10-12T20:48:50 ICT" duration-ms="2202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister1_EmptyData -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:48:50 ICT" name="mess" finished-at="2023-10-12T20:48:50 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method is-config="true" signature="openRegisterPage()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:48:50 ICT" name="openRegisterPage" finished-at="2023-10-12T20:48:51 ICT" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRegisterPage -->
+        <test-method signature="testRegister2_InvalidEmail()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:48:51 ICT" name="testRegister2_InvalidEmail" finished-at="2023-10-12T20:48:53 ICT" duration-ms="2400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister2_InvalidEmail -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:48:53 ICT" name="mess" finished-at="2023-10-12T20:48:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method is-config="true" signature="openRegisterPage()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:48:53 ICT" name="openRegisterPage" finished-at="2023-10-12T20:48:54 ICT" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRegisterPage -->
+        <test-method signature="testRegister3_CorrectInformation()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:48:54 ICT" name="testRegister3_CorrectInformation" finished-at="2023-10-12T20:48:57 ICT" duration-ms="2915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister3_CorrectInformation -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:48:57 ICT" name="mess" finished-at="2023-10-12T20:48:57 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method is-config="true" signature="openRegisterPage()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:48:57 ICT" name="openRegisterPage" finished-at="2023-10-12T20:48:58 ICT" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRegisterPage -->
+        <test-method signature="testRegister4_Email_already_exists()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:48:58 ICT" name="testRegister4_Email_already_exists" finished-at="2023-10-12T20:49:01 ICT" duration-ms="2846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister4_Email_already_exists -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:49:01 ICT" name="mess" finished-at="2023-10-12T20:49:01 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method is-config="true" signature="openRegisterPage()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:49:01 ICT" name="openRegisterPage" finished-at="2023-10-12T20:49:02 ICT" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRegisterPage -->
+        <test-method signature="testRegister5_Password_is_less_than_6_characters()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:49:02 ICT" name="testRegister5_Password_is_less_than_6_characters" finished-at="2023-10-12T20:49:04 ICT" duration-ms="2135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister5_Password_is_less_than_6_characters -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:49:04 ICT" name="mess" finished-at="2023-10-12T20:49:04 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method is-config="true" signature="openRegisterPage()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:49:04 ICT" name="openRegisterPage" finished-at="2023-10-12T20:49:06 ICT" duration-ms="1766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRegisterPage -->
+        <test-method signature="testRegister6_Password_different_ConfirmPass()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:49:06 ICT" name="testRegister6_Password_different_ConfirmPass" finished-at="2023-10-12T20:49:08 ICT" duration-ms="2178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister6_Password_different_ConfirmPass -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:49:08 ICT" name="mess" finished-at="2023-10-12T20:49:08 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:RegisterPage.Register@3c46e67a]" started-at="2023-10-12T20:49:46 ICT" name="closeTest" finished-at="2023-10-12T20:49:46 ICT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- RegisterPage.Register -->
+      <class name="MyAccountPage.AccountPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MyAccountPage.AccountPage@38425407]" started-at="2023-10-12T20:48:39 ICT" name="setUp" finished-at="2023-10-12T20:48:40 ICT" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openMyAcc()[pri:0, instance:MyAccountPage.AccountPage@38425407]" started-at="2023-10-12T20:49:33 ICT" name="openMyAcc" finished-at="2023-10-12T20:49:38 ICT" duration-ms="4420" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='ico-account']"}
+  (Session info: chrome=117.0.5938.152)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [73327376b897bde531b6f84785a8567a, findElement {using=xpath, value=//a[@class='ico-account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52269}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52269/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73327376b897bde531b6f84785a8567a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='ico-account']"}
+  (Session info: chrome=117.0.5938.152)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [73327376b897bde531b6f84785a8567a, findElement {using=xpath, value=//a[@class='ico-account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52269}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52269/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73327376b897bde531b6f84785a8567a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at MyAccountPage.AccountPage.openMyAcc(AccountPage.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openMyAcc -->
-        <test-method signature="testMyAcc1_Update_Information_Cus()[pri:0, instance:MyAccountPage.AccountPage@217ed35e]" started-at="2023-10-10T20:57:03 ICT" name="testMyAcc1_Update_Information_Cus" finished-at="2023-10-10T20:57:06 ICT" duration-ms="2860" status="PASS">
+        <test-method signature="testMyAcc1_Update_Information_Cus()[pri:0, instance:MyAccountPage.AccountPage@38425407]" started-at="2023-10-12T20:49:38 ICT" name="testMyAcc1_Update_Information_Cus" finished-at="2023-10-12T20:49:38 ICT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='ico-account']"}
+  (Session info: chrome=117.0.5938.152)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [73327376b897bde531b6f84785a8567a, findElement {using=xpath, value=//a[@class='ico-account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52269}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52269/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73327376b897bde531b6f84785a8567a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='ico-account']"}
+  (Session info: chrome=117.0.5938.152)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [73327376b897bde531b6f84785a8567a, findElement {using=xpath, value=//a[@class='ico-account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52269}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52269/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73327376b897bde531b6f84785a8567a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at MyAccountPage.AccountPage.openMyAcc(AccountPage.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMyAcc1_Update_Information_Cus -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:MyAccountPage.AccountPage@38425407]" started-at="2023-10-12T20:49:38 ICT" name="mess" finished-at="2023-10-12T20:49:38 ICT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:MyAccountPage.AccountPage@38425407]" started-at="2023-10-12T20:49:46 ICT" name="closeTest" finished-at="2023-10-12T20:49:46 ICT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
       </class> <!-- MyAccountPage.AccountPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="SearchPage.Search">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SearchPage.Search@43bc63a3]" started-at="2023-10-12T20:48:41 ICT" name="setUp" finished-at="2023-10-12T20:48:45 ICT" duration-ms="3333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearch1_With_EmptyData()[pri:0, instance:SearchPage.Search@43bc63a3]" started-at="2023-10-12T20:49:38 ICT" name="testSearch1_With_EmptyData" finished-at="2023-10-12T20:49:40 ICT" duration-ms="2072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch1_With_EmptyData -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:SearchPage.Search@43bc63a3]" started-at="2023-10-12T20:49:40 ICT" name="mess" finished-at="2023-10-12T20:49:40 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method signature="testSearch2_Data_Not_Exist()[pri:0, instance:SearchPage.Search@43bc63a3]" started-at="2023-10-12T20:49:40 ICT" name="testSearch2_Data_Not_Exist" finished-at="2023-10-12T20:49:43 ICT" duration-ms="3322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch2_Data_Not_Exist -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:SearchPage.Search@43bc63a3]" started-at="2023-10-12T20:49:43 ICT" name="mess" finished-at="2023-10-12T20:49:43 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method signature="testSearch3_ProductName_Absolute()[pri:0, instance:SearchPage.Search@43bc63a3]" started-at="2023-10-12T20:49:43 ICT" name="testSearch3_ProductName_Absolute" finished-at="2023-10-12T20:49:46 ICT" duration-ms="2567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch3_ProductName_Absolute -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:SearchPage.Search@43bc63a3]" started-at="2023-10-12T20:49:46 ICT" name="mess" finished-at="2023-10-12T20:49:46 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:SearchPage.Search@43bc63a3]" started-at="2023-10-12T20:49:46 ICT" name="closeTest" finished-at="2023-10-12T20:49:46 ICT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- SearchPage.Search -->
+      <class name="LoginPage.Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:48:37 ICT" name="setUp" finished-at="2023-10-12T20:48:39 ICT" duration-ms="2586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLogin()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:08 ICT" name="openLogin" finished-at="2023-10-12T20:49:12 ICT" duration-ms="4010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLogin -->
+        <test-method signature="testLogin1_EmptyData()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:12 ICT" name="testLogin1_EmptyData" finished-at="2023-10-12T20:49:14 ICT" duration-ms="2108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin1_EmptyData -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:14 ICT" name="mess" finished-at="2023-10-12T20:49:14 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method is-config="true" signature="openLogin()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:14 ICT" name="openLogin" finished-at="2023-10-12T20:49:16 ICT" duration-ms="2015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLogin -->
+        <test-method signature="testLogin2_InvalidEmail()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:16 ICT" name="testLogin2_InvalidEmail" finished-at="2023-10-12T20:49:18 ICT" duration-ms="2164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin2_InvalidEmail -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:18 ICT" name="mess" finished-at="2023-10-12T20:49:18 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method is-config="true" signature="openLogin()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:18 ICT" name="openLogin" finished-at="2023-10-12T20:49:20 ICT" duration-ms="1133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLogin -->
+        <test-method signature="testLogin3_Unregistered_Email()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:20 ICT" name="testLogin3_Unregistered_Email" finished-at="2023-10-12T20:49:22 ICT" duration-ms="2646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin3_Unregistered_Email -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:22 ICT" name="mess" finished-at="2023-10-12T20:49:22 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method is-config="true" signature="openLogin()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:22 ICT" name="openLogin" finished-at="2023-10-12T20:49:23 ICT" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLogin -->
+        <test-method signature="testLogin4_RegisteredEmail_And_EmptyPass()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:23 ICT" name="testLogin4_RegisteredEmail_And_EmptyPass" finished-at="2023-10-12T20:49:26 ICT" duration-ms="2597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin4_RegisteredEmail_And_EmptyPass -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:26 ICT" name="mess" finished-at="2023-10-12T20:49:26 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method is-config="true" signature="openLogin()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:26 ICT" name="openLogin" finished-at="2023-10-12T20:49:27 ICT" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLogin -->
+        <test-method signature="testLogin5_RegisteredEmail_And_WrongPass()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:27 ICT" name="testLogin5_RegisteredEmail_And_WrongPass" finished-at="2023-10-12T20:49:29 ICT" duration-ms="2584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin5_RegisteredEmail_And_WrongPass -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:29 ICT" name="mess" finished-at="2023-10-12T20:49:29 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method is-config="true" signature="openLogin()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:29 ICT" name="openLogin" finished-at="2023-10-12T20:49:31 ICT" duration-ms="1557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLogin -->
+        <test-method signature="testLogin6_CorrectInformation()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:31 ICT" name="testLogin6_CorrectInformation" finished-at="2023-10-12T20:49:33 ICT" duration-ms="2763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin6_CorrectInformation -->
+        <test-method is-config="true" signature="mess()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:33 ICT" name="mess" finished-at="2023-10-12T20:49:33 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mess -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:LoginPage.Login@54d9d12d]" started-at="2023-10-12T20:49:46 ICT" name="closeTest" finished-at="2023-10-12T20:49:46 ICT" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- LoginPage.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -34,7 +34,7 @@ public class Register {
 	  public void openRegisterPage() {
 	        firstName = "demo";
 	        lastName = "nopcommerce";
-	        validEmail = "demonopcommerce5@gmail.com";  
+	        validEmail = "demonopcommerce2@gmail.com";  
 	        invalidEmail = "demo";
 	        validPassword = "123456demo";
 	        invalidPassword = "12345";
@@ -120,9 +120,9 @@ public class Register {
 			 //ktra duong dan
 			 
 			 String actual_e =  driver.findElement(By.xpath("/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]")).getText();
-			 
+			 String expected_e ="Your registration completed";
 			//type 1
-			Assert.assertTrue(actual_e.contains("Your registration completed"));
+				Assert.assertEquals(actual_e, expected_e);
 			Thread.sleep(2000);
 	  }
 	//dang ky email da ton tai

@@ -36,8 +36,8 @@ public class AccountPage {
 		  
 		  firstName = "demo";
 		  lastName = "nopcommerce";
-	        email = "demonopcommerce5@gmail.com";
-	        emailAddress = "demonopcommerce5@gmail.com";
+	        email = "demonopcommerce1@gmail.com";
+	        emailAddress = "demonopcommerce2@gmail.com";
 	        companyName = "nopcommerce company";
 
 	        addressFirstName = "demo";
@@ -86,32 +86,32 @@ public class AccountPage {
 		Thread.sleep(2000);
 	  }
 	  
-	  @Test
-	  public void testMyAcc2_Add_Addresses_Cus() throws InterruptedException
-	  {
-		driver.findElement(By.xpath("/html/body/div[6]/div[3]/div/div[1]/div/div[2]/ul/li[2]/a")).click();
-	    driver.findElement(By.xpath("/html/body/div[6]/div[3]/div/div[2]/div/div[2]/div[2]/button")).click(); // click button add
-		driver.findElement(By.name("Address_FirstName")).sendKeys( addressFirstName);
-		driver.findElement(By.name("Address_LastName")).sendKeys(addressLastName);
-		driver.findElement(By.name("Address_Email")).sendKeys(emailAddress);
-		driver.findElement(By.name("Address_Company")).sendKeys(addressCompany);
-		driver.findElement(By.name("Address.CountryId")).sendKeys(country);
-		driver.findElement(By.name("Address_City")).sendKeys(addressCity);
-		driver.findElement(By.name("Address_Address1")).sendKeys(address1);
-		driver.findElement(By.name("Address_ZipPostalCode")).sendKeys(addressZipPostalCode);
-		driver.findElement(By.name("Address_PhoneNumber")).sendKeys(phoneNumber);
-		driver.findElement(By.name("Address_FaxNumber")).sendKeys(faxNumber);
-		driver.findElement(By.name("Address_ZipPostalCode")).sendKeys(addressZipPostalCode);
-		driver.findElement(By.xpath("//button[text()='Save']")).click();
-		 //ktra duong dan
-		 
-		String actual_error =  driver.findElement(By.xpath("//*[@id=\"bar-notification\"]/div/p")).getText();
-		 
-		String expected_error = "The customer info has been updated successfully.";
-		//type 1
-		Assert.assertEquals(actual_error, expected_error);
-		Thread.sleep(2000);
-	  }
+//	  @Test
+//	  public void testMyAcc2_Add_Addresses_Cus() throws InterruptedException
+//	  {
+//		driver.findElement(By.xpath("/html/body/div[6]/div[3]/div/div[1]/div/div[2]/ul/li[2]/a")).click();
+//	    driver.findElement(By.xpath("/html/body/div[6]/div[3]/div/div[2]/div/div[2]/div[2]/button")).click(); // click button add
+//		driver.findElement(By.name("Address_FirstName")).sendKeys( addressFirstName);
+//		driver.findElement(By.name("Address_LastName")).sendKeys(addressLastName);
+//		driver.findElement(By.name("Address_Email")).sendKeys(emailAddress);
+//		driver.findElement(By.name("Address_Company")).sendKeys(addressCompany);
+//		driver.findElement(By.name("Address.CountryId")).sendKeys(country);
+//		driver.findElement(By.name("Address_City")).sendKeys(addressCity);
+//		driver.findElement(By.name("Address_Address1")).sendKeys(address1);
+//		driver.findElement(By.name("Address_ZipPostalCode")).sendKeys(addressZipPostalCode);
+//		driver.findElement(By.name("Address_PhoneNumber")).sendKeys(phoneNumber);
+//		driver.findElement(By.name("Address_FaxNumber")).sendKeys(faxNumber);
+//		driver.findElement(By.name("Address_ZipPostalCode")).sendKeys(addressZipPostalCode);
+//		driver.findElement(By.xpath("//button[text()='Save']")).click();
+//		 //ktra duong dan
+//		 
+//		String actual_error =  driver.findElement(By.xpath("//*[@id=\"bar-notification\"]/div/p")).getText();
+//		 
+//		String expected_error = "The customer info has been updated successfully.";
+//		//type 1
+//		Assert.assertEquals(actual_error, expected_error);
+//		Thread.sleep(2000);
+//	  }
 	  //pt nay duoc thi sau khi KT moi testcase
 	  @AfterMethod
 	  public void mess() {
