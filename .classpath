@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-20">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Dowload/selenium-server-4.12.0.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/async-http-client-2.12.3.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/async-http-client-netty-utils-2.12.3.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/auto-service-annotations-1.1.1.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/byte-buddy-1.14.5.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/checker-qual-3.33.0.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/error_prone_annotations-2.18.0.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/failsafe-3.3.2.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/guava-32.1.2-jre.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/j2objc-annotations-2.8.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/jakarta.activation-1.2.2.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/netty-buffer-4.1.96.Final.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/netty-codec-4.1.96.Final.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/netty-codec-http-4.1.96.Final.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/netty-codec-socks-4.1.96.Final.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/netty-common-4.1.96.Final.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/netty-handler-4.1.96.Final.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/netty-handler-proxy-4.1.96.Final.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/netty-reactive-streams-2.0.4.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/netty-resolver-4.1.96.Final.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/netty-transport-4.1.96.Final.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/netty-transport-classes-epoll-4.1.96.Final.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/netty-transport-classes-kqueue-4.1.96.Final.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/netty-transport-native-epoll-4.1.96.Final.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/netty-transport-native-kqueue-4.1.96.Final.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/netty-transport-native-unix-common-4.1.96.Final.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/opentelemetry-api-1.28.0.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/opentelemetry-api-events-1.28.0-alpha.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/opentelemetry-context-1.28.0.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/opentelemetry-exporter-logging-1.28.0.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/opentelemetry-extension-incubator-1.28.0-alpha.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/opentelemetry-sdk-1.28.0.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/opentelemetry-sdk-common-1.28.0.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/opentelemetry-sdk-logs-1.28.0.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/opentelemetry-sdk-metrics-1.28.0.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/opentelemetry-sdk-trace-1.28.0.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/opentelemetry-semconv-1.28.0-alpha.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/reactive-streams-1.0.4.jar"/>
+	<classpathentry kind="lib" path="F:/Dowload/lib/slf4j-api-2.0.7.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
